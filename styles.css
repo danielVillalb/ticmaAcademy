@@ -1,7 +1,5 @@
-div.retrato{
-    display: inline; /* the default for span */
-}
-div.retrato img {
+
+div.retrato img{
     width: 200px;
     height: auto;
     position:relative;
@@ -13,19 +11,18 @@ div.retrato img {
 
 
   }
-  div.container{
+  label{
     display: inline;
-    top: 10px;
-    left:100px;
   }
+
   *{
    
     background: rgb(113, 109, 109);
   }
-  li,h1,h2{
+  h1,h2{
     position: relative;
     display: inline;
-    top: -150px;
+    top: -200px;
     left:200px;
     bottom:0px;
   }
@@ -38,3 +35,20 @@ div.retrato img {
     position: relative;
     top:-150px
   }
+
+li{
+    position: relative;
+    display: inline;
+    top: -200px;
+    left:200px;
+    bottom:0px;
+}
+img{
+width: 200px;
+    height: auto;
+    position:relative;
+    left:0px;
+    top:0px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
