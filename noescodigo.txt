@@ -1,7 +1,0 @@
-document.getElementById("nombre").innerHTML="Nombre:"+item.name.first;
-document.getElementById("apellido").innerHTML="Apellido:" + item.name.last;
-document.getElementById("nacionalidad").innerHTML="Nacionalidad:" + item.location.country;
-document.getElementById("edad").innerHTML="Edad:" + item.registered.age;
-document.getElementById("direccion").innerHTML="Direccion:" + item.location.street.name + item.location.street.number;
-document.getElementById("celular").innerHTML="Celular:" + item.cell;
-document.getElementById("email").innerHTML="Correo Electronico:" + item.email;
